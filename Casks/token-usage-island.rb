@@ -1,6 +1,6 @@
 cask "token-usage-island" do
-  version "1.2.1"
-  sha256 "1039474e881eb0e5545745b85d4458e14a6dedb012ed93640d819343fb0735b0"
+  version "1.2.2"
+  sha256 "a445ca954f32610ecd10eca3bb184bbd3ff7f3033deeda511af10c11569027b6"
 
   url "https://github.com/pierreprudh/token-usage-island/releases/download/v#{version}/TokenUsageIsland-#{version}.zip"
   name "Token Usage Island"
