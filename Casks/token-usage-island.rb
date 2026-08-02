@@ -1,6 +1,6 @@
 cask "token-usage-island" do
-  version "1.3.0"
-  sha256 "676e501c4e26a3b213b549ae426f6138d9f40b32ad9b5f999afb07a3c0981b63"
+  version "1.4.0"
+  sha256 "7138cfe8235b1e3e1f7fe3ec1629ac19584b1933374ec726e004fdb6f0024c29"
 
   url "https://github.com/pierreprudh/token-usage-island/releases/download/v#{version}/TokenUsageIsland-#{version}.zip"
   name "Token Usage Island"
@@ -13,7 +13,6 @@ cask "token-usage-island" do
   end
 
   depends_on macos: :sonoma
-  depends_on arch: :arm64
 
   app "Token Usage Island.app"
 
